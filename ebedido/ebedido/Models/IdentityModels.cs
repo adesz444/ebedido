@@ -29,5 +29,7 @@ namespace ebedido.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<ContactManager.Models.Contact> Contacts { get; set; }
     }
 }
